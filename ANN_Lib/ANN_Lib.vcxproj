@@ -155,10 +155,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ANN_Lib.cpp" />
-    <ClCompile Include="Library\BaseLib.cpp" />
+    <ClCompile Include="Library\NeuralNetwork.cpp" />
+    <ClCompile Include="Library\Neuron.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Library\BaseLib.h" />
+    <ClInclude Include="Library\NeuralNetwork.h" />
+    <ClInclude Include="Library\Neuron.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
